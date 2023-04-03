@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Login / Registration Code",
   "main": "app.js",
-  "scripts": {
-    "build": "npm install --production=false && npm run build && npm ci"
-  },
   "author": "Turana Rashidova",
   "license": "ISC",
   "dependencies": {
