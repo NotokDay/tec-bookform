@@ -4,7 +4,7 @@
   "description": "Login / Registration Code",
   "main": "app.js",
   "scripts": {
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
+    "build": "npm install --production=false && npm run build && npm ci"
   },
   "author": "Turana Rashidova",
   "license": "ISC",
