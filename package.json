@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Login / Registration Code",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "author": "Turana Rashidova",
   "license": "ISC",
   "dependencies": {
