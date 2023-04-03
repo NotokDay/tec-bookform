@@ -25,7 +25,7 @@ mongoose.connect(dbURI, {
 }).then((result) => {
   console.log("Connected to the database successfully!");
   // listening on port as a server:
-  const port = 80;
+  const port = process.env.PORT || 5000
   app.listen(port, () => {
     console.log(`The app listening on port ${port}!`);
   });
